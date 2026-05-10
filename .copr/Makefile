@@ -1,4 +1,4 @@
 SPEC_NAME := $(notdir $(spec))
-include $(SPEC_NAME)/conf.mk
+include $(spec)/conf.mk
 srpm: $(SPEC_NAME)
 	pwd
